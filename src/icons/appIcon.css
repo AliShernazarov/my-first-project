@@ -1,0 +1,10 @@
+.fourth_icon {
+  width: 98px;
+  height: 98px;
+  background: #ffcc00;
+  border-radius: 100px;
+  filter: drop-shadow(0px 15px 30px rgba(255, 204, 0, 0.4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

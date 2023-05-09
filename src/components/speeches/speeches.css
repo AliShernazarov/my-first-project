@@ -1,0 +1,234 @@
+.speeches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 547.51px;
+  background: #fe9602;
+  margin-bottom: 200px;
+}
+
+.speech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 1120px;
+  height: 347.51px;
+}
+
+.speech_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 44px;
+  width: 723px;
+  height: 347.51px;
+}
+
+.exclude {
+  width: 60px;
+  height: 47.51px;
+  position: relative;
+  left: 530px;
+  margin-bottom: 44px;
+}
+
+.speech_text_about {
+  width: 723px;
+  height: 120px;
+  margin: 0;
+  margin-bottom: 44px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  position: relative;
+  left: 198.5px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+}
+
+.famous {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 424px;
+  padding: 0px;
+  gap: 8px;
+  width: 272px;
+  height: 64px;
+}
+
+.famous_person {
+  width: 272px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.famous_company {
+  width: 272px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  background: white;
+  opacity: 1;
+  border-radius: 50%;
+  height: 45px !important;
+  width: 45px !important;
+  position: relative;
+  top: -185px;
+}
+
+.swiper-button-prev:hover {
+  background: #4c40f7;
+}
+
+.swiper-button-prev::after {
+  background-image: url('../../../src/img/ArrowRight.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+
+.swiper-button-next {
+  background: white;
+  opacity: 1;
+  border-radius: 50%;
+  height: 45px !important;
+  width: 45px !important;
+  position: absolute;
+  top: 6593px;
+  right: 242px;
+}
+
+.swiper-button-next:hover {
+  background: #4c40f7;
+}
+
+.swiper-button-next::after {
+  background-image: url('../../../src/img/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: #ffcc00;
+  width: 15px;
+  height: 4px;
+  border-radius: 2px;
+  position: relative;
+  bottom: 40px !important;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -44px !important;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet:active {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .speeches {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px !important;
+    height: 700.51px;
+    background: #fe9602;
+    margin-bottom: 200px;
+    position: absolute;
+    top: 11100px;
+  }
+
+  .swiper,
+  swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+    height: 520px;
+    width: 390px;
+  }
+
+  .exclude {
+    position: relative;
+    left: 150px;
+    top: 15px;
+    margin: 0;
+    width: 100px;
+    height: 75px;
+  }
+
+  .speech_text_about {
+    width: 245px;
+    height: auto;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    left: 75.5px;
+    top: 65px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+  }
+
+  .famous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    padding: 0px;
+    width: 272px;
+    height: 64px;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    top: 340px;
+  }
+}

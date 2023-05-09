@@ -1,0 +1,557 @@
+.footer {
+  width: 100%;
+  height: 896px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 250px 0px 60px;
+  gap: 44px;
+  position: relative;
+  width: 100%;
+  height: 416px;
+  top: 170px;
+  background: #00113b;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px 80px;
+  gap: 32px;
+  position: absolute;
+  width: 920px;
+  height: 200px;
+  background: #4c40f7;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.email_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 920px;
+  height: 96px;
+}
+
+.notify {
+  width: 207px;
+  height: 24px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.email_text h3 {
+  width: 315px;
+  height: 56px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+}
+
+.email_label {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 52px 20px 28px;
+  width: 500px;
+  height: 72px;
+  background: #ffffff;
+  border: 2px solid #4c40f7;
+  box-shadow: 0px 8px 50px #3123f8;
+  border-radius: 11px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+
+.email_label::placeholder {
+  width: 49px;
+  height: 32px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #abafc7;
+}
+
+.email svg {
+  position: absolute;
+  right: 338px;
+  top: 212px;
+}
+
+.footer_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  margin: 0 auto;
+  width: 1120px;
+  height: 288px;
+}
+
+.footer_main_first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 360px;
+  height: 288px;
+}
+
+.footer_icon {
+  background: #4c40f7;
+  padding: 14px;
+  border-radius: 0.7rem;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  box-shadow: -5px 10px 30px rgb(76 64 247 / 50%);
+}
+
+.footer_main_second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 388px;
+  height: 288px;
+}
+
+.footer_main_third {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 172px;
+  height: 288px;
+}
+
+.footer_main_text {
+  width: 360px;
+  height: 192px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.footer_main_second h6 {
+  width: 102px;
+  height: 28px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer_main_third h6 {
+  width: 83px;
+  height: 28px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer_main_third_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 172px;
+  height: 184px;
+}
+
+.metro_plaza {
+  width: 172px;
+  height: 72px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.metro_plaza_email {
+  width: 172px;
+  height: 48px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.metro_plaza_number {
+  width: 172px;
+  height: 24px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+hr {
+  width: 1120px;
+  height: 0px;
+  margin: 0;
+  border: 1px solid #ffffff;
+}
+
+.footer_end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 172.5px;
+  width: 1120px;
+  height: 40px;
+}
+
+.footer_end small {
+  width: 190px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #abafc7;
+}
+
+.footer_end ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+  gap: 36px;
+  width: 395px;
+  height: 24px;
+}
+
+.footer_end ul li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #abafc7;
+  list-style-type: none;
+}
+
+.footer_end_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 190px;
+  height: 40px;
+}
+
+.footer_end_icons a {
+  width: 40px;
+  height: 40px;
+  background: #4c40f7;
+  mix-blend-mode: normal;
+  border-radius: 20px;
+}
+
+.footer_end_icons svg {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 390px;
+    height: 1755px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 16600px;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 25px 80px;
+    gap: 32px;
+    position: absolute;
+    width: 302px;
+    height: 192px;
+    background: #4c40f7;
+    border-radius: 20px;
+    z-index: 2;
+  }
+
+  .email_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 352px;
+    height: 88px;
+  }
+
+  .notify {
+    width: 207px;
+    height: 24px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .email_text h3 {
+    width: 315px;
+    height: 56px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .email_label {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 52px 20px 28px;
+    width: 302px;
+    height: 72px;
+    background: #ffffff;
+    border: 2px solid #4c40f7;
+    box-shadow: 0px 8px 50px #3123f8;
+    border-radius: 11px;
+  }
+
+  .email svg {
+    position: absolute;
+    right: 50px;
+    top: 203px;
+  }
+
+  .footer_background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 0px 0px;
+    position: relative;
+    width: 390px;
+    height: 1414px;
+    top: 170px;
+    background: #00113b;
+  }
+
+  .footer_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+    margin: 0 auto;
+    width: 352px;
+    height: 288px;
+  }
+
+  .footer_main_first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 360px;
+    height: 288px;
+  }
+
+  .footer_main_text {
+    width: 360px;
+    height: 175px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  .footer_main_second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 352px;
+    height: 288px;
+  }
+
+  .footer_main_second svg {
+    width: 352px;
+  }
+
+  .footer_main_third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 352px;
+    height: 288px;
+  }
+
+  .footer_main_third_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 352px;
+    height: 160px;
+  }
+
+  .metro_plaza {
+    width: 352px;
+    height: 72px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  .metro_plaza_email {
+    width: 352px;
+    height: 30px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  .metro_plaza_email br {
+    display: none;
+  }
+
+  .footer_background hr {
+    display: none;
+  }
+
+  .footer_end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60.5px;
+    width: 1120px;
+    height: 40px;
+    position: absolute;
+    bottom: 225px;
+  }
+
+  .footer_end ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+    gap: 25px;
+    width: 352px;
+    height: 24px;
+  }
+
+  .footer_end_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 352px;
+    height: 40px;
+  }
+}

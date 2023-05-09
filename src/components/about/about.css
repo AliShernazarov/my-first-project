@@ -1,0 +1,377 @@
+#root {
+  background: #ffffff;
+}
+
+.about_first_background {
+  width: 1120px;
+  height: 400px;
+  margin: 100px auto 200px;
+  background: #f3f4f6;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+
+.about_first_background h3 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  width: 570px;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.4px;
+  color: #111029;
+  margin: 0;
+  text-align: center;
+}
+
+.about_first_background h6 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #6b6b6b;
+  margin: 0;
+  width: 800px;
+}
+
+.team {
+  width: 1120px;
+  height: 2140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 200px;
+}
+
+.team_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 1120px;
+  height: 160px;
+}
+
+.team_text h6 {
+  width: 1120px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff2d59;
+  justify-content: center;
+}
+
+.team_text h3 {
+  margin: 0;
+  width: 750px;
+  height: 112px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #111029;
+}
+
+.team_blogs {
+  width: 1120px;
+  height: 1960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team_blog {
+  width: 353px;
+  height: 460px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 8px 50px rgba(236, 236, 236, 1);
+}
+
+.team_blog img {
+  border-radius: 20px;
+}
+
+.team_blog_text {
+  height: 107px;
+  width: 353px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team_blog_text h4 {
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 57px;
+  text-align: center;
+}
+
+.team_blog_text h6 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.moment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+  width: 1120px;
+  height: 2156px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.moment_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 1120px;
+  height: 104px;
+}
+
+.moment_text h6 {
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ff3b2f;
+}
+
+.moment_text h3 {
+  height: 56px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #111029;
+  margin: 0;
+}
+
+.moment_rooms {
+  width: 1120px;
+  height: 1992px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.rooms_about {
+  width: 1122px;
+  height: 980px;
+}
+
+.rooms_2_about {
+  width: 1122px;
+  height: 980px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_first_background {
+    width: 326px;
+    height: 300px;
+    margin: 100px auto 100px;
+    background: #f3f4f6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .about_first_background h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 326px;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #111029;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about_first_background h6 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #6b6b6b;
+    margin: 0;
+    width: 326px;
+  }
+
+  .rooms_2_about {
+    width: 390px;
+    height: 980px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 11800px;
+    gap: 20px;
+  }
+
+  .team {
+    width: 390px;
+    height: 5990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .team_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 390px;
+    height: 108px;
+  }
+
+  .team_text h6 {
+    width: 390px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ff2d59;
+    justify-content: center;
+  }
+
+  .team_text h3 {
+    margin: 0;
+    width: 390px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #111029;
+  }
+
+  .team_blogs {
+    width: 390px;
+    height: 1960px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .moment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    width: 390px;
+    height: 6100px;
+    margin: 0 auto;
+  }
+
+  .moment_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 390px;
+    height: 90px;
+  }
+
+  .moment_text h6 {
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ff3b2f;
+  }
+
+  .moment_text h3 {
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #111029;
+    margin: 0;
+  }
+
+  .moment_rooms {
+    width: 390px;
+    height: 5950px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .rooms_about {
+    width: 390px;
+    height: 980px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 8823px;
+    gap: 20px;
+  }
+}

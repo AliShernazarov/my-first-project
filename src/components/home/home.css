@@ -1,0 +1,153 @@
+.home {
+  width: 1120px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding-top: 113px;
+  position: relative;
+}
+
+.home_image {
+  position: relative;
+  top: -530px;
+  right: -10px;
+  max-width: 1230px;
+}
+
+.text1 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  height: 216px;
+  width: 570px;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.4px;
+  color: #111029;
+}
+
+.more {
+  color: #ff6800;
+}
+
+.text2 {
+  height: 208px;
+  width: 570px;
+}
+
+.text {
+  font-family: 'Poppins';
+  height: 96px;
+  padding: 24px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #6b6b6b;
+}
+
+button.get {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 200px;
+  height: 64px;
+  filter: drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25));
+  border-radius: 12px;
+  background: #4c40f7;
+  border: 0;
+}
+
+p.started {
+  width: 129px;
+  height: 26px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 16px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    width: 1120px;
+    height: 460px;
+    margin: 0 auto;
+    padding-top: 113px;
+    position: relative;
+  }
+
+  .home_image {
+    top: -100px;
+    right: 180px;
+    max-width: 560px;
+  }
+
+  .text1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 320px;
+    height: auto;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: normal;
+    color: #111029;
+    top: 326px;
+    left: 32px;
+    position: absolute;
+  }
+
+  .text1 br {
+    display: none;
+  }
+
+  .text2 br {
+    display: none;
+  }
+
+  .text2 {
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 385px;
+    left: 32px;
+    margin: 0;
+  }
+
+  .text {
+    font-family: 'Poppins';
+    width: 320px;
+    height: 51px;
+    padding: 24px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    display: flex;
+    color: #6b6b6b;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .get {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 200px;
+    height: 50px !important;
+    filter: drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25));
+    border-radius: 12px;
+    background: #4c40f7;
+    border: 0;
+  }
+}

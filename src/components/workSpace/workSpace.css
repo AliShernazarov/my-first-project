@@ -1,0 +1,361 @@
+.workingspace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+  width: 1120px;
+  height: 1144px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.decoration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 829px;
+  height: 104px;
+}
+
+.w {
+  width: 153px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ff3b2f;
+}
+
+.interior {
+  width: 829px;
+  height: 56px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #111029;
+  margin: 0;
+}
+
+.rooms {
+  width: 1122px;
+  height: 980px;
+}
+
+.room_1 {
+  position: relative;
+  width: 353px;
+  height: 500px;
+  top: 480px;
+  left: 768px;
+  background: #c4c4c4;
+}
+
+.kitchen_room {
+  width: 353px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.kitchen_text {
+  position: relative;
+  margin: 0;
+  width: 146px;
+  height: 32px;
+  left: 25px;
+  bottom: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.room_2 {
+  position: relative;
+  width: 352px;
+  height: 420px;
+  background: #c4c4c4;
+  top: 60px;
+  left: 384px;
+}
+
+.single_room {
+  width: 352px;
+  height: 420px;
+  border-radius: 5px;
+}
+
+.single_text {
+  position: relative;
+  margin: 0;
+  width: 200px;
+  height: 32px;
+  left: 25px;
+  top: -50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.room_3 {
+  position: relative;
+  width: 353px;
+  height: 550px;
+  left: 1px;
+  top: -490px;
+  background: #c4c4c4;
+}
+
+.rest_room {
+  width: 353px;
+  height: 550px;
+  border-radius: 5px;
+}
+
+.rest_text {
+  position: relative;
+  margin: 0;
+  width: 175px;
+  height: 32px;
+  left: 25px;
+  top: -50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.room_4 {
+  position: relative;
+  width: 353px;
+  height: 450px;
+  background: #c4c4c4;
+  top: -1470px;
+  left: 768px;
+}
+
+.meeting_room {
+  width: 353px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.meeting_text {
+  position: relative;
+  margin: 0;
+  width: 246px;
+  height: 32px;
+  left: 25px;
+  top: -50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.room_5 {
+  position: relative;
+  width: 352px;
+  height: 530px;
+  background: #c4c4c4;
+  top: -1920px;
+  left: 384px;
+}
+
+.corner_room {
+  width: 352px;
+  height: 530px;
+  border-radius: 5px;
+}
+
+.corner_text {
+  position: relative;
+  margin: 0;
+  width: 147px;
+  height: 32px;
+  left: 25px;
+  top: -50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.room_6 {
+  position: relative;
+  width: 353px;
+  height: 400px;
+  background: #c4c4c4;
+  left: 1px;
+  top: -2450px;
+}
+
+.front_room {
+  width: 353px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.front_text {
+  position: relative;
+  margin: 0;
+  width: 195px;
+  height: 32px;
+  left: 25px;
+  top: -50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .workingspace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    width: 390px;
+    height: 1144px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    position: absolute;
+    top: 6650px;
+  }
+
+  .decoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 829px;
+    height: 94px;
+  }
+
+  .w {
+    width: 153px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ff3b2f;
+  }
+
+  .interior {
+    width: 352px;
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #111029;
+    margin: 0;
+    line-height: 26px;
+  }
+
+  .rooms {
+    width: 1122px;
+    height: 980px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: absolute;
+    top: 2100px;
+    gap: 20px;
+  }
+
+  .room_1 {
+    width: 353px;
+    height: 500px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .room_2 {
+    width: 352px;
+    height: 420px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .room_3 {
+    width: 353px;
+    height: 550px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .room_4 {
+    width: 353px;
+    height: 450px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .room_5 {
+    width: 352px;
+    height: 530px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .room_6 {
+    width: 353px;
+    height: 400px;
+    background: #c4c4c4;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}

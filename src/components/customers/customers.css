@@ -1,0 +1,217 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  gap: 80px;
+  width: 1120px;
+  height: 313.85px;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 1120px;
+  height: 104px;
+}
+
+.great {
+  width: 1120px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ff2d59;
+}
+
+.companies {
+  width: 1120px;
+  height: 56px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #111029;
+}
+
+.great_companies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  width: 1114.82px;
+  height: 129.85px;
+}
+
+.first_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 117px;
+  width: 1114.82px;
+  height: 34.85px;
+}
+
+.second_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 77px;
+  width: 1114.82px;
+  height: 34.85px;
+}
+
+.amazon {
+  width: 116.05px;
+  height: 34.94px;
+}
+
+.jeep {
+  width: 86.95px;
+  height: 34.99px;
+}
+
+.careem {
+  width: 169.37px;
+  height: 34.68px;
+}
+
+.hubSpot {
+  width: 120.68px;
+  height: 34.99px;
+}
+
+.jQuery {
+  width: 153.77px;
+  height: 34.94px;
+}
+
+.canon {
+  width: 167.83px;
+  height: 34.85px;
+}
+
+.fedex {
+  width: 124.45px;
+  height: 34.48px;
+}
+
+.bitcoin {
+  width: 165.04px;
+  height: 34.46px;
+}
+
+.pirelli {
+  width: 159.81px;
+  height: 33.94px;
+}
+
+.philips {
+  width: 189.1px;
+  height: 34.67px;
+}
+
+@media screen and (max-width: 1024px) {
+  .customers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    gap: 80px;
+    width: 390px;
+    height: auto;
+    position: absolute;
+    top: 9900px;
+  }
+
+  .customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 390px;
+    height: 104px;
+  }
+
+  .great {
+    width: 1120px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ff2d59;
+  }
+
+  .companies {
+    width: 390px;
+    height: 56px;
+    line-height: 28px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #111029;
+  }
+
+  .great_companies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    width: 390px;
+    height: auto;
+  }
+
+  .first_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 390px;
+    height: auto;
+  }
+
+  .second_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 390px;
+    height: auto;
+  }
+}

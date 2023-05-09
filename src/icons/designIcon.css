@@ -1,0 +1,10 @@
+.second_icon {
+  width: 98px;
+  height: 98px;
+  background: #ff2d59;
+  border-radius: 100px;
+  filter: drop-shadow(0px 15px 30px rgba(255, 45, 89, 0.4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

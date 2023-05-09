@@ -1,0 +1,242 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  width: 1120px;
+  height: 884px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 1120px;
+  height: 104px;
+}
+
+.ask {
+  width: 1120px;
+  height: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ff2d59;
+}
+
+.frequently {
+  width: 1120px;
+  height: 56px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #111029;
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 1120px;
+  height: 720px;
+}
+
+.MuiBox-root.css-10klw3m {
+  width: 1120px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 32px 32px 28px 32px;
+  height: 88px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  border-radius: 8px;
+  border: 1px solid #4c40f7;
+}
+
+.MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-o4b71y-MuiAccordionSummary-content {
+  margin: 0;
+}
+
+svg.svg-inline--fa.fa-chevron-down {
+  color: black;
+}
+
+.css-1uuyw14 {
+  width: 992px;
+  height: 24px;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #111029;
+}
+
+.MuiBox-root.css-10klw3m hr {
+  width: 1056px;
+  height: 0px;
+  border: 1px solid #d8d8d8;
+  position: absolute;
+  left: 32px;
+}
+
+.MuiAccordionDetails-root.css-zbsqa-MuiAccordionDetails-root {
+  padding: 28px 32px 32px 32px !important;
+  width: 1056px;
+  height: 96px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #6b6b6b;
+}
+
+@media screen and (max-width: 1024px) {
+  .questions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 0 auto;
+    width: 1120px;
+    height: 858px;
+    position: absolute;
+    top: 11900px;
+  }
+
+  .question {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    height: 95px;
+  }
+
+  .ask {
+    width: 390px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ff2d59;
+  }
+
+  .frequently {
+    width: 390px;
+    height: 56px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #111029;
+  }
+
+  .accordions {
+    display: flex;
+    padding: 0px;
+    gap: 32px;
+    width: 390px;
+    height: 720px;
+    flex-direction: column;
+  }
+
+  .MuiBox-root.css-10klw3m {
+    width: 352px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+    padding: 16px 16px 14px 16px;
+    height: 88px;
+  }
+
+  .css-1uuyw14 {
+    width: auto;
+    height: 24px;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #111029;
+    position: absolute;
+    left: 16px;
+    bottom: 28px;
+    justify-content: flex-start;
+  }
+
+  .MuiAccordionSummary-expandIconWrapper
+    css-yw020d-MuiAccordionSummary-expandIconWrapper {
+    position: absolute;
+    right: 16px;
+  }
+
+  .MuiAccordionSummary-expandIconWrapper
+    css-yw020d-MuiAccordionSummary-expandIconWrapper
+    svg {
+    width: 10px;
+    height: 12px;
+  }
+
+  .MuiBox-root.css-10klw3m hr {
+    width: 320px;
+    height: 0px;
+    border: 1px solid #d8d8d8;
+    position: absolute;
+    left: 16px;
+  }
+
+  .MuiAccordionDetails-root.css-zbsqa-MuiAccordionDetails-root {
+    padding: 14px 16px 16px 16px !important;
+    width: 320px;
+    height: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #6b6b6b;
+  }
+}
